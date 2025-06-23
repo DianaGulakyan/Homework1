@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+ <div id="forgot"></div>
+
+
     <div class="bloor">
         <img src="13.png" >
     </div>
   <div class="container">
-
-    
       <div class="login-form">
         <h4 class="logo">Your logo</h4>
         <h1>Login</h1>
@@ -24,7 +25,7 @@
           <label for="password">Password</label>
           <input type="password" id="password" placeholder="Password" required>
 
-          <a href="#" class="forgot">Forgot Password?</a>
+            <a href="#forgot" class="forgot">Forgot Password?</a>
 
           <button type="submit" class="btn-login">Sign in</button>
 
@@ -42,7 +43,22 @@
         <p class="register">Don’t have an account yet? <a href="#">Register for free</a></p>
       </div>
 
+      <div class="forgot-form">
+        <h1>Forgot Password</h1>
+        <form>
+            <label for="new-password">New Password</label>
+            <input type="password" id="new-password" placeholder="Enter new password" required>
+
+            <label for="confirm-password">Confirm New Password</label>
+            <input type="password" id="confirm-password" placeholder="Confirm new password" required>
+
+            <a href="#" class="btn-confirm">Confirm Change</a>
+        </form>
+      </div>
       
+      <div class="login-image">
+        <img src="12.png" >
+      </div>
     </div>
   </div>
 </body>
